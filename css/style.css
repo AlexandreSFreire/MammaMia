@@ -28,7 +28,7 @@ a:hover{
 
 /* -- NAV BAR -- */
 .nav-bar{
-    background-color: #fccace;
+    background-color: #014D54;
     width: 100%;
     height: 15vh;
     padding: 20px 50px;
@@ -61,7 +61,7 @@ a:hover{
 
 .nav-bar li a{
     font-size:large;
-    color: #000000;
+    color: #E0E4E7;
     font-weight: bold;
 }
 
@@ -77,6 +77,7 @@ a:hover{
     header img{
         margin-top: -50px;
     }
+
 }
 /* -- NAV BAR -- */
 
@@ -91,6 +92,7 @@ a:hover{
     align-items: center;
     text-align: center;
     border-bottom: 2px solid #000000;
+    font-weight: 700;
 }
 
 .container-inicial h1{
@@ -117,18 +119,21 @@ a:hover{
 
 #video{
     margin-right: 180px;
+}
+
+#video video{
     border-radius: 20px;
 }
 
 .btn{
-    background-color:#992ADE;
+    background-color:#014D54;
     color: white;
-    border: 2px solid #630266;
+    border: 2px solid #013b41;
     width: 100%;
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 1px 1px 15px -4px rgba(0, 0, 0, 0.46);
+    box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -149,16 +154,26 @@ a:hover{
 
     .container-inicial h1{
         font-size: 2.4rem;
+        margin-top: 50px;
+
     }
 
     .container-inicial h3{
         font-size: 1.5rem;
+        margin: 50px;
     }
 
     #video{
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         margin-right: 0px;
+        height: auto;
     }
+
+    .container-inicial .btn{
+        width: 60%;
+        margin: 50px;
+    }
+
 }
 /* -- CONTAINER -- */
 
@@ -168,12 +183,13 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 50px;
+    padding: 80px 50px;
     border-bottom: 2px solid #000000;
+    font-weight: 700;
 }
 
 .mamma-mia h3{
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -182,13 +198,14 @@ a:hover{
     max-width: 800px;
     margin-bottom: 35px;
     text-align: center;
+    font-size: large;
 }
 
 .mamma-mia hr{
     background-color: #000000;
     width: 200px;
     height: 2px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     border: none;
 }
 
@@ -230,7 +247,7 @@ a:hover{
 
 .bolsas .ofertas .produto{
     background-color: white;
-    width: 25%;
+    width: 30%;
     padding: 0 30px;
     text-align: center;
     border-radius: 10px;
@@ -238,7 +255,7 @@ a:hover{
 }
 
 .bolsas .ofertas .produto h4{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 30px;
 }
 
@@ -248,32 +265,14 @@ a:hover{
 
 .bolsas .ofertas .produto p{
     color: black;
-    padding-top: 25px;
+    padding-top: 40px;
+    font-weight:400;
+    font-size: 20px;
 }
 
 .bolsas .ofertas .produto .btn{
     margin-bottom: 30px;
 }
-
-/*.ofertas a{
-    background-color:#992ADE;
-    color: white;
-    border: 2px solid #630266;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 15px -4px rgba(0, 0, 0, 0.46);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    transition: 0.2s;
-}
-
-.ofertas a:hover{
-    color: black;
-    background-color: white;
-}*/
 
 @media (max-width: 1000px){
     .bolsas .ofertas{
@@ -284,6 +283,7 @@ a:hover{
     .bolsas .ofertas .produto{
         width: 90%;
         height: 70%;
+        margin-top: 50px;
     }
 }
 
@@ -298,12 +298,16 @@ a:hover{
     font-size: 2rem;
     margin-bottom: 35px;
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .contato p{
     max-width: 800px;
     margin-bottom: 35px;
     text-align: center;
+    font-size: large;
+    font-weight: 600;
 }
 
 .contato hr{
@@ -315,22 +319,13 @@ a:hover{
 }
 
 .contato .btn{
-    width: 30%;
+    width: auto;
+    padding: 15px;
 }
 
-/* -- FLEX ITEMS -- */
-.flex-items{
-    background-color: #992ADE;
-    width: 60px;
-    height: 60px;
-    margin: 1%;
-    border-radius: 15px;
-    cursor: pointer;
-}
-/* -- FLEX ITEMS -- */
 
 footer{
-    background-color: #010018;
+    background-color: #014D54;
     width: 100%;
     height: 5vh;
     padding: 50px 0;
@@ -340,5 +335,5 @@ footer{
 }
 
 footer p{
-    color: white;
+    color: #E0E4E7;
 }

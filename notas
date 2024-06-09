@@ -1,0 +1,45 @@
+<div class="ofertas">
+            <div class="produto">
+                <!-- TITULO -->
+                <h4>Bolsas Branca</h4>
+
+                <!--PREÇO
+                <h3>R$300,00</h3>
+                -->
+                <img src="./img/branco1.jpg" alt="" width="100%">
+
+                <!-- DESCRIÇÃO-->
+                <p>A melhor opção para quem quer arrasar no look de verão</p>
+
+                <a class="btn" href="" target="_blank">Comprar</a>
+            </div>
+            <!--BOLSA 2-->
+            <div class="produto">
+                <!-- TITULO -->
+                <h4>Bolsas Laranjas</h4>
+
+                <!--PREÇO
+                <h3>R$300,00</h3>
+                    -->
+                <img src="./img/laranja1.jpg" alt="" width="100%">
+
+                <!-- DESCRIÇÃO-->
+                <p>A melhor opção para quem quer arrasar no look de verão</p>
+
+                <a class="btn" href="" target="_blank">Comprar</a>
+            </div>
+            <!--BOLSA 3-->
+            <div class="produto">
+                <!-- TITULO -->
+                <h4>Bolsas Pretas</h4>
+
+                <!--PREÇO
+                <h3>R$300,00</h3>-->
+                <img src="./img/preto.jpg" alt="" width="100%">
+
+                <!-- DESCRIÇÃO-->
+                <p>A melhor opção para quem quer arrasar no look de verão</p>
+
+                <a class="btn" href="" target="_blank">Comprar</a>
+            </div>
+        </div>
