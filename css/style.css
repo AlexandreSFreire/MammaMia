@@ -65,7 +65,7 @@ a:hover{
     font-weight: bold;
 }
 
-@media(max-width: 700px){
+@media(max-width: 750px){
     .nav-bar{
         flex-direction: column;
     }
@@ -147,7 +147,7 @@ a:hover{
     background-color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .container-inicial{
         flex-direction: column;
         justify-content: center;
@@ -170,7 +170,7 @@ a:hover{
     }
 
     #video video{
-        height: 450px;
+        height: 50rem;
     }
 
     .container-inicial .btn{
@@ -211,6 +211,64 @@ a:hover{
     height: 2px;
     margin-bottom: 40px;
     border: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container img{
+    border-radius: 50px;
+}
+
+.container .detalhes{
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.container .detalhes-img{
+    border-radius: 20px;
+    max-height: 100%;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+@media (max-width: 750px) {
+    .container{
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container .detalhes{
+        margin-right: 0;
+        display: grid;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .detalhes-img{
+        max-height: 100%;
+        max-width: 600px;
+        margin-left: 0;
+    }
+
+    .container h3{
+        font-size: 25px;
+    }
+
+    .container p{
+        font-size: 16px;
+    }
+
 }
 
 .bolsas{
@@ -303,11 +361,17 @@ a:hover{
   }
   
   .carousel-container button {
-    background-color: #333;
+    background-color: #014D54;
     color: white;
     padding: 10px 10px;
-    border: none;
+    border-color: #013b41;
     cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .carousel-container button:hover {
+    background-color: #E0E4E7;
+    color: #000000;
   }
   
   #prevBtn {
@@ -320,7 +384,7 @@ a:hover{
   
   
 
-@media (max-width: 1000px){
+@media (max-width: 900px){
     .bolsas .ofertas{
         flex-direction: column;
         align-items: center;
